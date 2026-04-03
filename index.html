@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Landing Page Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header">
+    <div class="container">
+    <div class="top-bar">
        <div class="logo">
            <p>Header Logo</p>
         </div>
@@ -15,35 +18,53 @@
             <li>header link 2</li>
             <li>header link 3</li>
         </ul>
-        <div class="awesome">
-            <h1>This website is awesome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
-            <div>this is a placeholder for an image</div>
-            <button>Sign up</button>
+      </div>
+          <div class="awesome">
+            <div class="awesome-left">
+                <h1>This website is awesome</h1>
+                <p class="awesome-sub">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button class="button">Sign up</button>
+            </div>
+            <div class="awesome-right">
+                <div class="placeholder">this is a placeholder for an image</div>
+            </div>
         </div>
     </div>
+    </div>
     <div class="info">
-        <div class="random-info">Some random information.</div>
-        <div class="images">
-            <img src="./images/onion-root.jpg" alt="Microscopic view of onion root cells">
-            <div class="text">This is a microscopic view of onion root cells.</div>
-            <img src="./images/onion-epidermal.jpg" alt="Microscopic view of onion epidermal cells">
-            <div class="text">This is a microscopic view of onion epidermal cells.</div>
-            <img src="./images/plant-tissue.jpg" alt="Microscopic view of plant tissue">
-            <div class="text">This is a microscopic view of plant tissue.</div>
-            <img src="./images/human-blood-cells.jpg" alt="Microscopic view of human blood cells">
-            <div class="text">This is a microscopic view of human blood cells.</div>
-        </div>
+        <h2 class="info-title">Some random information.</h2>
+
+        <div class="features">
+            <div class="feature">
+                <img src="./images/onion-root.jpg" alt="onion root" class="feature-box">
+                <p class="feature-text">this is some subtext under an illustration or image</p>
+            </div>
+            <div class="feature">
+                <img src="./images/onion-epidermal.jpg" alt="onion epidermal" class="feature-box">
+                <p class="feature-text">this is some subtext under an illustration or image</p>
+            </div>
+            <div class="feature">
+                <img src="./images/plant-tissue.jpg" alt="plant tissue" class="feature-box">
+                <p class="feature-text">this is some subtext under an illustration or image</p>
+            </div>
+            <div class="feature">
+                <img src="./images/blood-cells.jpg" alt="blood cells" class="feature-box">
+                <p class="feature-text">this is some subtext under an illustration or image</p>
+            </div>
         </div>
     </div>
     <div class="quote">
-        <p>"This is a quote from a famous person."</p>
-        <p>- Some Famous Person</p>
+        <p class="quote-text">"This is a quote from a famous person."</p>
+        <p class="attribution">- Some Famous Person</p>
     </div>
     <div class="action">
-        <div>Call to action! It's time!</div>
-        <div>Sign up for our product by clicking that button right over there!</div>
-        <button>Sign up</button>
+        <div class="cta-wrap">
+            <div class="cta-text">
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button>Sign up</button>
+        </div>
     </div>
 <div class="footer">
     <p>Icons made by <a href="https://www.pexels.com/@leo-freire-2159905110/">Leo Freire from Pexels</a></p>
